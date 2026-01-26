@@ -6,6 +6,6 @@ The [Travelling Salesman Problem (TSP)](https://en.m.wikipedia.org/wiki/Travelli
 * A standalone solver which implements the [Held-Karp algorithm](https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm) to solve TSP with dynamic programming
 * A simple branch-and-bound solver for educational purposes, who can prune backtracking branches as soon as their lower bound is bigger than the current maximum
 
-Using `benchmark()`, one can compare the performances on the [TSPLIB95 Dataset](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/). `benchmark.log` also provides pre-recorede results measured with an Intel i9-10980HK and 32 GB of memory.
+Using `benchmark()`, one can compare the performances on the [TSPLIB95 Dataset](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/). `benchmark.log` also provides pre-recorded results measured with an Intel i9-10980HK and 32 GB of memory.
 
 (c) Mia Müßig
