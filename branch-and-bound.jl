@@ -25,6 +25,7 @@ Solves a TSPLIB instance with the Branch-and-Bound method.
 - `timeout`: solver timeout in seconds
 """
 function solve_bnb(tsp::TSP, timeout::Int=600)
+    t_start = time()
     tour = Tour(size(tsp.weights, 1), timeout)
 
     for v in 1 : tour.n
@@ -34,6 +35,8 @@ function solve_bnb(tsp::TSP, timeout::Int=600)
     tour.lower = sum(tour.min_contrib)  # initialize lower bound as sum over all minimum contributions
 
     backtrack!(tsp, tour)
+    
+    return tour.best_known, time() - t_start
 end
 
 
@@ -44,7 +47,7 @@ function backtrack!(tsp::TSP, tour::Tour)
 
         if isnothing(tour.best_known) || tour.length < tour.best_known
             tour.best_known = tour.length
-            println("New Best Solution: $(tour.best_known) for $(tour.path)")
+            println("[BnB] New Best Solution: $(tour.best_known) for $(tour.path)")
         end
 
         tour.length -= tsp.weights[last(tour.path), tour.path[1]]  # remove closing edge
@@ -55,7 +58,7 @@ function backtrack!(tsp::TSP, tour::Tour)
     # backtrack if lower bound for current tour is bigger than best known
     if !isnothing(tour.best_known) && tour.length + tour.lower > tour.best_known
         if time() > tour.finish_time
-            println("Timeout with current best solution: $(tour.best_known) for tour $(tour.path)")
+            println("[BnB] Timeout with current best solution: $(tour.best_known) for tour $(tour.path)")
             return false
         end
 

@@ -13,6 +13,7 @@ Solves a TSPLIB instance with Integer Programming using the Miller-Tucker-Zemlin
 """
 function solve_ilp(tsp::TSP, timeout::Int=60)
     model = Model(Gurobi.Optimizer)
+    set_silent(model)
     set_time_limit_sec(model, timeout)
 
     n = size(tsp.weights, 1)
