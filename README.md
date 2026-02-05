@@ -19,10 +19,6 @@ julia setup.jl
 julia --project=. main.jl
 ```
 
-## Benchmark Results
-
-Using `benchmark()`, solvers are compared on the [TSPLIB95 Dataset](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/). See `benchmark.log` for pre-recorded results (Intel i9-10980HK, 32 GB RAM).
-
 ## Requirements
 
 - **Julia 1.9+** (tested with 1.12)
