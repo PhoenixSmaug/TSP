@@ -1,0 +1,482 @@
+============================================================
+TSP Solver Benchmark Suite
+============================================================
+Found 6 instances with size <= 25
+Timeout: 60s per solver
+
+
+============================================================
+Instance: burma14.tsp | Size: 14 | Optimum: 3323.0 (1/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 4048.0 for [1, 8, 11, 9, 10, 2, 14, 3, 4, 12, 6, 7, 13, 5]
+[BnB] New Best Solution: 3814.0 for [1, 8, 11, 9, 10, 2, 14, 3, 4, 12, 6, 7, 5, 13]
+[BnB] New Best Solution: 3535.0 for [1, 8, 11, 9, 10, 2, 14, 3, 4, 12, 6, 5, 7, 13]
+[BnB] New Best Solution: 3416.0 for [1, 8, 11, 9, 10, 2, 14, 3, 4, 5, 6, 12, 7, 13]
+[BnB] New Best Solution: 3381.0 for [1, 8, 11, 9, 10, 13, 7, 12, 6, 5, 4, 3, 14, 2]
+[BnB] New Best Solution: 3359.0 for [1, 8, 9, 10, 11, 13, 7, 12, 6, 5, 4, 3, 14, 2]
+[BnB] New Best Solution: 3346.0 for [1, 8, 2, 14, 3, 4, 5, 6, 12, 7, 13, 11, 9, 10]
+[BnB] Timeout with current best solution: 3346.0 for tour [1, 8, 13, 3, 10, 9, 12, 4, 5, 7]
+Results: 3346.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 3323.0 (0.043s)
+Starting Integer Linear Programming (timeout 60s):
+Results: 3323.0 (1.379s)
+Starting LKH (timeout 60s):
+Results: 3323.0 (0.046s)
+Starting Concorde (timeout 60s):
+Results: 3323.0 (0.111s)
+Starting Hygese (timeout 60s):
+Results: 3323.0 (1.349s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 3336.0 (0.523s)
+Starting 2-Opt (timeout 60s):
+Results: 3323.0 (0.018s)
+Starting Simulated Annealing (timeout 60s):
+Results: 3336.0 (0.2s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 3336.0 (0.307s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 3323.0
+  GA gen 200: best = 3323.0
+  GA gen 300: best = 3323.0
+  GA gen 400: best = 3323.0
+  GA gen 500: best = 3323.0
+Results: 3323.0 (0.315s)
+
+============================================================
+Instance: gr17.tsp | Size: 17 | Optimum: 2085.0 (2/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 2187.0 for [1, 13, 4, 7, 8, 6, 17, 14, 15, 3, 11, 5, 10, 2, 9, 12, 16]
+[BnB] New Best Solution: 2158.0 for [1, 13, 4, 7, 8, 6, 17, 14, 15, 3, 11, 5, 2, 10, 9, 12, 16]
+[BnB] New Best Solution: 2094.0 for [1, 13, 4, 7, 8, 6, 17, 14, 15, 3, 11, 10, 2, 5, 9, 12, 16]
+[BnB] Timeout with current best solution: 2094.0 for tour [1, 13, 4, 7, 8, 12, 16, 6, 3, 5, 15, 14, 17, 9, 11]
+Results: 2094.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 2085.0 (0.495s)
+Starting Integer Linear Programming (timeout 60s):
+Results: 2085.0 (14.171s)
+Starting LKH (timeout 60s):
+Results: 2085.0 (0.008s)
+Starting Concorde (timeout 60s):
+Results: 2085.0 (0.102s)
+Starting Hygese (timeout 60s):
+Results: 2085.0 (1.028s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 2163.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 2085.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 2090.0 (0.003s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 2090.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 2085.0
+  GA gen 200: best = 2085.0
+  GA gen 300: best = 2085.0
+  GA gen 400: best = 2085.0
+  GA gen 500: best = 2085.0
+Results: 2085.0 (0.067s)
+
+============================================================
+Instance: gr21.tsp | Size: 21 | Optimum: 2707.0 (3/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 3333.0 for [1, 12, 4, 11, 20, 10, 18, 21, 15, 2, 14, 13, 17, 19, 7, 8, 6, 16, 5, 9, 3]
+[BnB] New Best Solution: 3258.0 for [1, 12, 4, 11, 20, 10, 18, 21, 15, 2, 14, 13, 3, 9, 5, 16, 6, 8, 7, 19, 17]
+[BnB] New Best Solution: 3122.0 for [1, 12, 4, 11, 20, 10, 18, 21, 15, 14, 13, 2, 3, 9, 5, 16, 6, 8, 7, 19, 17]
+[BnB] New Best Solution: 3078.0 for [1, 12, 4, 11, 20, 10, 18, 21, 19, 17, 13, 14, 15, 2, 3, 9, 5, 16, 6, 8, 7]
+[BnB] Timeout with current best solution: 3078.0 for tour [1, 12, 4, 11, 20, 10, 18, 21, 7, 9, 5, 16, 8, 6, 14, 13, 2, 15]
+Results: 3078.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 2707.0 (14.353s)
+Starting Integer Linear Programming (timeout 60s):
+Results: 2707.0 (2.221s)
+Starting LKH (timeout 60s):
+Results: 2707.0 (0.006s)
+Starting Concorde (timeout 60s):
+Results: 2707.0 (0.102s)
+Starting Hygese (timeout 60s):
+Results: 2707.0 (1.878s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 2998.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 2707.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 2707.0 (0.003s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 2998.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 2707.0
+  GA gen 200: best = 2707.0
+  GA gen 300: best = 2707.0
+  GA gen 400: best = 2707.0
+  GA gen 500: best = 2707.0
+Results: 2707.0 (0.093s)
+
+============================================================
+Instance: gr24.tsp | Size: 24 | Optimum: 1272.0 (4/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 1553.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 22, 18, 19, 2, 20, 15, 3, 11]
+[BnB] New Best Solution: 1528.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 22, 18, 19, 2, 15, 20, 3, 11]
+[BnB] New Best Solution: 1504.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 22, 18, 19, 15, 2, 20, 3, 11]
+[BnB] New Best Solution: 1493.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 22, 19, 2, 20, 15, 18, 3, 11]
+[BnB] New Best Solution: 1465.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 19, 2, 20, 15, 22, 18, 3, 11]
+[BnB] New Best Solution: 1429.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 2, 20, 15, 19, 22, 18, 3, 11]
+[BnB] New Best Solution: 1413.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 20, 2, 15, 19, 22, 18, 3, 11]
+[BnB] New Best Solution: 1409.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 10, 17, 22, 18, 3, 11]
+[BnB] Timeout with current best solution: 1409.0 for tour [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 17, 14, 10, 20, 15, 19, 3, 11, 22]
+Results: 1409.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: Timeout/Error (-s)
+Starting Integer Linear Programming (timeout 60s):
+Results: Timeout/Error (-s)
+Starting LKH (timeout 60s):
+Results: 1272.0 (0.024s)
+Starting Concorde (timeout 60s):
+Results: 1272.0 (0.103s)
+Starting Hygese (timeout 60s):
+Results: 1272.0 (2.04s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 1364.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 1369.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 1289.0 (0.003s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 1358.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 1272.0
+  GA gen 200: best = 1272.0
+  GA gen 300: best = 1272.0
+  GA gen 400: best = 1272.0
+  GA gen 500: best = 1272.0
+Results: 1272.0 (0.115s)
+
+============================================================
+Instance: ulysses16.tsp | Size: 16 | Optimum: 6859.0 (5/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 9988.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 4, 2, 3, 11]
+[BnB] New Best Solution: 9851.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 3, 2, 4, 11]
+[BnB] New Best Solution: 8054.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 11, 4, 2, 3]
+[BnB] New Best Solution: 8040.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 11, 3, 2, 4]
+[BnB] New Best Solution: 7902.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 9, 11, 10, 4, 2, 3]
+[BnB] New Best Solution: 7729.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 9, 11, 10, 3, 2, 4]
+[BnB] New Best Solution: 7179.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 11, 9, 10, 4, 2, 3]
+[BnB] New Best Solution: 7006.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 11, 9, 10, 3, 2, 4]
+[BnB] New Best Solution: 7004.0 for [1, 8, 16, 13, 14, 12, 7, 6, 10, 9, 11, 5, 15, 4, 2, 3]
+[BnB] Timeout with current best solution: 7004.0 for tour [1, 8, 16, 13, 12, 9, 15, 5, 2, 3, 14, 10, 4, 7]
+Results: 7004.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 6859.0 (0.212s)
+Starting Integer Linear Programming (timeout 60s):
+Results: 6859.0 (13.14s)
+Starting LKH (timeout 60s):
+Results: 6859.0 (0.008s)
+Starting Concorde (timeout 60s):
+Results: 6859.0 (0.101s)
+Starting Hygese (timeout 60s):
+Results: 6859.0 (1.267s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 6950.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 6913.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 6875.0 (0.001s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 6870.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 6859.0
+  GA gen 200: best = 6859.0
+  GA gen 300: best = 6859.0
+  GA gen 400: best = 6859.0
+  GA gen 500: best = 6859.0
+Results: 6859.0 (0.083s)
+
+============================================================
+Instance: ulysses22.tsp | Size: 22 | Optimum: 7013.0 (6/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 10586.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 20, 21, 19, 10, 9, 3, 2, 11]
+[BnB] New Best Solution: 8736.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 20, 21, 19, 10, 9, 11, 3, 2]
+[BnB] New Best Solution: 8734.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 20, 21, 19, 9, 11, 10, 3, 2]
+[BnB] New Best Solution: 8712.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 20, 21, 19, 11, 9, 10, 3, 2]
+[BnB] New Best Solution: 8697.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 19, 10, 9, 11, 20, 21, 3, 2]
+[BnB] New Best Solution: 8649.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 11, 19, 20, 21, 3, 2]
+[BnB] New Best Solution: 8362.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 9, 11, 10, 19, 20, 21, 3, 2]
+[BnB] New Best Solution: 7639.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 11, 9, 10, 19, 20, 21, 3, 2]
+[BnB] Timeout with current best solution: 7639.0 for tour [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 20, 6, 15, 3, 2, 7, 19, 10, 9, 11, 5]
+Results: 7639.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 7013.0 (26.717s)
+Starting Integer Linear Programming (timeout 60s):
+Results: Timeout/Error (-s)
+Starting LKH (timeout 60s):
+Results: 7013.0 (0.024s)
+Starting Concorde (timeout 60s):
+Results: 7013.0 (0.101s)
+Starting Hygese (timeout 60s):
+Results: 7013.0 (1.661s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 7092.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 7198.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 7174.0 (0.003s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 7116.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 7013.0
+  GA gen 200: best = 7013.0
+  GA gen 300: best = 7013.0
+  GA gen 400: best = 7013.0
+  GA gen 500: best = 7013.0
+Results: 7013.0 (0.132s)
+
+============================================================
+Benchmark Complete!
+============================================================
+============================================================
+TSP Solver Benchmark Suite
+============================================================
+Found 6 instances with size <= 25
+Timeout: 60s per solver
+
+
+============================================================
+Instance: burma14.tsp | Size: 14 | Optimum: 3323.0 (1/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 4048.0 for [1, 8, 11, 9, 10, 2, 14, 3, 4, 12, 6, 7, 13, 5]
+[BnB] New Best Solution: 3814.0 for [1, 8, 11, 9, 10, 2, 14, 3, 4, 12, 6, 7, 5, 13]
+[BnB] New Best Solution: 3535.0 for [1, 8, 11, 9, 10, 2, 14, 3, 4, 12, 6, 5, 7, 13]
+[BnB] New Best Solution: 3416.0 for [1, 8, 11, 9, 10, 2, 14, 3, 4, 5, 6, 12, 7, 13]
+[BnB] New Best Solution: 3381.0 for [1, 8, 11, 9, 10, 13, 7, 12, 6, 5, 4, 3, 14, 2]
+[BnB] New Best Solution: 3359.0 for [1, 8, 9, 10, 11, 13, 7, 12, 6, 5, 4, 3, 14, 2]
+[BnB] New Best Solution: 3346.0 for [1, 8, 2, 14, 3, 4, 5, 6, 12, 7, 13, 11, 9, 10]
+[BnB] Timeout with current best solution: 3346.0 for tour [1, 8, 14, 12, 4, 7, 6, 5, 13, 2, 10]
+Results: 3346.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 3323.0 (0.029s)
+Starting Integer Linear Programming (timeout 60s):
+Results: 3323.0 (1.543s)
+Starting LKH (timeout 60s):
+Results: 3323.0 (0.004s)
+Starting Concorde (timeout 60s):
+Results: 3323.0 (0.102s)
+Starting Hygese (timeout 60s):
+Results: 3323.0 (0.978s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 3546.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 3323.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 3336.0 (0.001s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 3336.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 3323.0
+  GA gen 200: best = 3323.0
+  GA gen 300: best = 3323.0
+  GA gen 400: best = 3323.0
+  GA gen 500: best = 3323.0
+Results: 3323.0 (0.069s)
+
+============================================================
+Instance: gr17.tsp | Size: 17 | Optimum: 2085.0 (2/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 2187.0 for [1, 13, 4, 7, 8, 6, 17, 14, 15, 3, 11, 5, 10, 2, 9, 12, 16]
+[BnB] New Best Solution: 2158.0 for [1, 13, 4, 7, 8, 6, 17, 14, 15, 3, 11, 5, 2, 10, 9, 12, 16]
+[BnB] New Best Solution: 2094.0 for [1, 13, 4, 7, 8, 6, 17, 14, 15, 3, 11, 10, 2, 5, 9, 12, 16]
+[BnB] Timeout with current best solution: 2094.0 for tour [1, 13, 4, 7, 8, 16, 12, 9, 17, 14, 3, 15, 10, 2, 11, 5]
+Results: 2094.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 2085.0 (0.44s)
+Starting Integer Linear Programming (timeout 60s):
+Results: 2085.0 (13.763s)
+Starting LKH (timeout 60s):
+Results: 2085.0 (0.008s)
+Starting Concorde (timeout 60s):
+Results: 2085.0 (0.102s)
+Starting Hygese (timeout 60s):
+Results: 2085.0 (1.146s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 2095.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 2085.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 2090.0 (0.002s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 2157.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 2085.0
+  GA gen 200: best = 2085.0
+  GA gen 300: best = 2085.0
+  GA gen 400: best = 2085.0
+  GA gen 500: best = 2085.0
+Results: 2085.0 (0.085s)
+
+============================================================
+Instance: gr21.tsp | Size: 21 | Optimum: 2707.0 (3/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 3333.0 for [1, 12, 4, 11, 20, 10, 18, 21, 15, 2, 14, 13, 17, 19, 7, 8, 6, 16, 5, 9, 3]
+[BnB] New Best Solution: 3258.0 for [1, 12, 4, 11, 20, 10, 18, 21, 15, 2, 14, 13, 3, 9, 5, 16, 6, 8, 7, 19, 17]
+[BnB] New Best Solution: 3122.0 for [1, 12, 4, 11, 20, 10, 18, 21, 15, 14, 13, 2, 3, 9, 5, 16, 6, 8, 7, 19, 17]
+[BnB] New Best Solution: 3078.0 for [1, 12, 4, 11, 20, 10, 18, 21, 19, 17, 13, 14, 15, 2, 3, 9, 5, 16, 6, 8, 7]
+[BnB] Timeout with current best solution: 3078.0 for tour [1, 12, 4, 11, 20, 10, 18, 21, 7, 19, 2, 8, 16, 6, 14, 15]
+Results: 3078.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 2707.0 (13.019s)
+Starting Integer Linear Programming (timeout 60s):
+Results: 2707.0 (2.353s)
+Starting LKH (timeout 60s):
+Results: 2707.0 (0.007s)
+Starting Concorde (timeout 60s):
+Results: 2707.0 (0.101s)
+Starting Hygese (timeout 60s):
+Results: 2707.0 (1.738s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 2923.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 2801.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 2707.0 (0.003s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 2803.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 2707.0
+  GA gen 200: best = 2707.0
+  GA gen 300: best = 2707.0
+  GA gen 400: best = 2707.0
+  GA gen 500: best = 2707.0
+Results: 2707.0 (0.102s)
+
+============================================================
+Instance: gr24.tsp | Size: 24 | Optimum: 1272.0 (4/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 1553.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 22, 18, 19, 2, 20, 15, 3, 11]
+[BnB] New Best Solution: 1528.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 22, 18, 19, 2, 15, 20, 3, 11]
+[BnB] New Best Solution: 1504.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 22, 18, 19, 15, 2, 20, 3, 11]
+[BnB] New Best Solution: 1493.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 22, 19, 2, 20, 15, 18, 3, 11]
+[BnB] New Best Solution: 1465.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 19, 2, 20, 15, 22, 18, 3, 11]
+[BnB] New Best Solution: 1429.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 2, 20, 15, 19, 22, 18, 3, 11]
+[BnB] New Best Solution: 1413.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 10, 17, 20, 2, 15, 19, 22, 18, 3, 11]
+[BnB] New Best Solution: 1409.0 for [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 10, 17, 22, 18, 3, 11]
+[BnB] Timeout with current best solution: 1409.0 for tour [1, 16, 6, 7, 8, 21, 5, 24, 12, 4, 23, 9, 17, 18, 22, 14, 2, 15, 20, 13, 11]
+Results: 1409.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: Timeout/Error (-s)
+Starting Integer Linear Programming (timeout 60s):
+Results: Timeout/Error (-s)
+Starting LKH (timeout 60s):
+Results: 1272.0 (0.023s)
+Starting Concorde (timeout 60s):
+Results: 1272.0 (0.102s)
+Starting Hygese (timeout 60s):
+Results: 1272.0 (2.192s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 1370.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 1364.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 1289.0 (0.005s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 1356.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 1272.0
+  GA gen 200: best = 1272.0
+  GA gen 300: best = 1272.0
+  GA gen 400: best = 1272.0
+  GA gen 500: best = 1272.0
+Results: 1272.0 (0.114s)
+
+============================================================
+Instance: ulysses16.tsp | Size: 16 | Optimum: 6859.0 (5/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 9988.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 4, 2, 3, 11]
+[BnB] New Best Solution: 9851.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 3, 2, 4, 11]
+[BnB] New Best Solution: 8054.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 11, 4, 2, 3]
+[BnB] New Best Solution: 8040.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 11, 3, 2, 4]
+[BnB] New Best Solution: 7902.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 9, 11, 10, 4, 2, 3]
+[BnB] New Best Solution: 7729.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 9, 11, 10, 3, 2, 4]
+[BnB] New Best Solution: 7179.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 11, 9, 10, 4, 2, 3]
+[BnB] New Best Solution: 7006.0 for [1, 8, 16, 13, 14, 12, 7, 6, 15, 5, 11, 9, 10, 3, 2, 4]
+[BnB] New Best Solution: 7004.0 for [1, 8, 16, 13, 14, 12, 7, 6, 10, 9, 11, 5, 15, 4, 2, 3]
+[BnB] Timeout with current best solution: 7004.0 for tour [1, 8, 16, 13, 12, 5, 15, 2, 3, 14, 9, 7, 11, 6]
+Results: 7004.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 6859.0 (0.225s)
+Starting Integer Linear Programming (timeout 60s):
+Results: 6859.0 (11.999s)
+Starting LKH (timeout 60s):
+Results: 6859.0 (0.008s)
+Starting Concorde (timeout 60s):
+Results: 6859.0 (0.102s)
+Starting Hygese (timeout 60s):
+Results: 6859.0 (1.29s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 6913.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 6913.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 6859.0 (0.001s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 6930.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 6859.0
+  GA gen 200: best = 6859.0
+  GA gen 300: best = 6859.0
+  GA gen 400: best = 6859.0
+  GA gen 500: best = 6859.0
+Results: 6859.0 (0.081s)
+
+============================================================
+Instance: ulysses22.tsp | Size: 22 | Optimum: 7013.0 (6/6)
+------------------------------------------------------------
+Starting Branch and Bound (timeout 60s):
+[BnB] New Best Solution: 10586.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 20, 21, 19, 10, 9, 3, 2, 11]
+[BnB] New Best Solution: 8736.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 20, 21, 19, 10, 9, 11, 3, 2]
+[BnB] New Best Solution: 8734.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 20, 21, 19, 9, 11, 10, 3, 2]
+[BnB] New Best Solution: 8712.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 20, 21, 19, 11, 9, 10, 3, 2]
+[BnB] New Best Solution: 8697.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 19, 10, 9, 11, 20, 21, 3, 2]
+[BnB] New Best Solution: 8649.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 10, 9, 11, 19, 20, 21, 3, 2]
+[BnB] New Best Solution: 8362.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 9, 11, 10, 19, 20, 21, 3, 2]
+[BnB] New Best Solution: 7639.0 for [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 7, 6, 15, 5, 11, 9, 10, 19, 20, 21, 3, 2]
+[BnB] Timeout with current best solution: 7639.0 for tour [1, 8, 22, 17, 4, 18, 16, 13, 14, 12, 20, 7, 6, 5, 2, 21, 15, 19, 3, 10]
+Results: 7639.0 (60.0s)
+Starting Dynamic Programming (timeout 60s):
+Results: 7013.0 (28.891s)
+Starting Integer Linear Programming (timeout 60s):
+Results: Timeout/Error (-s)
+Starting LKH (timeout 60s):
+Results: 7013.0 (0.024s)
+Starting Concorde (timeout 60s):
+Results: 7013.0 (0.101s)
+Starting Hygese (timeout 60s):
+Results: 7013.0 (2.673s)
+Starting Nearest Neighbor (timeout 60s):
+Results: 7092.0 (0.0s)
+Starting 2-Opt (timeout 60s):
+Results: 7087.0 (0.0s)
+Starting Simulated Annealing (timeout 60s):
+Results: 7114.0 (0.005s)
+Starting Cheapest Insertion (timeout 60s):
+Results: 7116.0 (0.0s)
+Starting Genetic Algorithm (timeout 60s):
+  GA gen 100: best = 7013.0
+  GA gen 200: best = 7013.0
+  GA gen 300: best = 7013.0
+  GA gen 400: best = 7013.0
+  GA gen 500: best = 7013.0
+Results: 7013.0 (0.172s)
+
+============================================================
+Benchmark Complete!
+============================================================
